@@ -1,14 +1,16 @@
 import { useState } from "react";
+import Home from './pages/Home/Home'
 
 import "./App.css";
 
+
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
-    <>
-      <h1>Christ is Lord</h1>
-    </>
+    <div className="App">
+    <Home/>
+    </div>
   );
 }
 

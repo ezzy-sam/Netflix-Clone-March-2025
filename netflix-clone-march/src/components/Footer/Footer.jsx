@@ -13,8 +13,8 @@ function Footer() {
           <InstagramIcon />
           <YouTubeIcon />
         </div>
-        <div className="member_footer">
-          <div className="footer_dat">
+        <div className="footer_data">
+          <div>
             <ul>
               <li>Audio Description</li>
               <li>Investor Relations</li>
@@ -47,7 +47,7 @@ function Footer() {
         <div className="service_code">
           <p>Service Code</p>
         </div>
-        <div className="copy-write">&copy; 1997-2025 Netflix, Inc.</div>
+        <div className="copy_write">&copy; 1997-2025 Netflix, Inc.</div>
       </div>
     </div>
   );

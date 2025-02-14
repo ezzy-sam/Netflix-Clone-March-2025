@@ -30,7 +30,7 @@ const Banner = ()=>  {
     }, []);
     
     function truncate(str, n) {
-      return str?.length > n ?str.substr(0, n - 1) + '...' : str
+      return str?.length > n ?str.substr(0, n - 1) + '...' : str;
     }
 
   
@@ -50,13 +50,13 @@ const Banner = ()=>  {
         <h1 className="banner_title">
           {movie?.title || movie?.name || movie?.original_name}
         </h1>
-        <div className="banner_button">
+        <div className="banner_btn">
           <button className="banner_button play">Play</button>
           <button className="banner_button">My List</button>
         </div>
+        <h1 className="banner_description">{truncate(movie?.overview, 150)}</h1>
       </div>
-      <h1 className="banner_description">{truncate(movie?.overview, 150)}</h1>
-      <div className="banner_fadeButtom"></div>
+      <div className="banner_fadeBottom"></div>
     </div>
   );
 }

@@ -70,7 +70,7 @@ const opts = {
         ))}
 
       </div>
-      <div style={{ padding: '40px '}}>
+      <div style={{ padding: '40px'}}>
         {trailerUrl && <YouTube videoID={trailerUrl} opts={opts}/>}
 
       </div>
